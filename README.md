@@ -14,4 +14,7 @@ sass ./scss/style.scss ./css/style.css
 ```
 
 6. baixar o projeto no git
-7. customizar o projeto# sass
+7. customizar o projeto 
+8. salvar alterações
+9. comitar no seu repositório
+10. enviar o link do repositório para o portal da EBAC
