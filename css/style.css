@@ -51,7 +51,7 @@ p {
 }
 
 h1 {
-  color: #ff5;
+  color: rgb(63, 63, 61);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 3rem;
   margin-top: 3rem;
@@ -77,13 +77,13 @@ footer {
   border-bottom: 2px solid #f00;
 }
 
-.blocks {
+.bikes, .cars {
   padding: 3rem 0;
 }
-.blocks h2 {
-  color: #ff5;
+.bikes h2, .cars h2 {
+  color: rgb(63, 63, 61);
 }
-.blocks ul {
+.bikes ul, .cars ul {
   list-style-type: none;
   font-size: 1.2rem;
   display: flex;
@@ -92,20 +92,20 @@ footer {
   padding: 1rem 0;
   width: 100%;
 }
-.blocks li {
+.bikes li, .cars li {
   color: #999;
   display: block;
   margin: 1.5rem auto;
   width: 30%;
 }
-.blocks li .img-container {
+.bikes li .img-container, .cars li .img-container {
   display: block;
   height: 200px;
   overflow: hidden;
   width: 100%;
 }
-.blocks li a {
-  background-color: #ff5;
+.bikes li a, .cars li a {
+  background-color: rgb(63, 63, 61);
   border-radius: 5px;
   color: white;
   display: block;
@@ -119,11 +119,62 @@ footer {
 .cars h2 {
   color: #999;
 }
+.cars .destacks {
+  border: 1px solid rgb(63, 63, 61);
+  background-color: #222;
+}
 .cars li {
+  border: 1px solid #444;
+  background-color: #ddd;
   color: #222;
+  display: block;
+  float: left;
+  height: max-content;
+  justify-content: center;
+  align-items: baseline;
+  flex-flow: column;
 }
 .cars li a {
   background-color: #4ecb43;
+}
+
+.bikes, .cars {
+  padding: 3rem 0;
+}
+.bikes h2, .cars h2 {
+  color: rgb(63, 63, 61);
+}
+.bikes ul, .cars ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 1rem 0;
+  width: 100%;
+}
+.bikes li, .cars li {
+  color: #999;
+  display: block;
+  margin: 1.5rem auto;
+  width: 30%;
+}
+.bikes li .img-container, .cars li .img-container {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.bikes li a, .cars li a {
+  background-color: rgb(63, 63, 61);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 2.2rem;
+  margin: 3rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .destack {
